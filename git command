@@ -1,0 +1,26 @@
+1. cd /home/manisha/Desktop/git/
+
+2. git init
+Initialized empty Git repository in /home/manisha/Desktop/git/.git/
+
+3. ls -a
+.  ..  .git  git.html
+
+4.  git add *
+
+5. git commit -m "Version 1.0"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'manisha@manisha-Inspiron-15-3567.(none)')
+
+6. git log
+7. git checkout c5003d9b571380dfe52cba0aba2ccd37dfa4964d
